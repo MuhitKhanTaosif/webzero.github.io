@@ -1,0 +1,40 @@
+body,
+html{
+    height:100%;
+    width:100%;
+    font-family:'Montserrat', sans-serif;
+    background: url(pexels-aleksandar-pasaric-325185.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.buffer{
+    height:8rem;
+}
+
+h1{
+    font-size:5rem;  
+}
+hr{
+    max-width:75px;
+    border-width:5px;
+    border-color: rgb(255, 78, 60 );
+}
+.btn-xl{
+    padding:1rem 2rem;
+}
+.btn{
+    text-transform: uppercase;
+    font-weight:700;
+    border-radius:50px;
+}
+.btn-secondary{
+    background-color: rgb(255, 78, 60 );
+    border-color:rgb(255, 78, 60);
+}
+.btn-secondary:hover{
+    background-color: rgb(255, 40, 17);
+    border-color:rgb(255, 40, 17);
+    border-width:4px;
+}
